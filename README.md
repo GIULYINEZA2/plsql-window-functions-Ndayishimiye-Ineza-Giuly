@@ -27,6 +27,9 @@ Data challenge
 
 
 Smart Reads Rwanda Ltd bookstore aims to improve its inline sales across various book categories( Academic, Fiction, Non-Fiction and Children’s books) by identifying the best-selling books each quarter, studying customer reading habits and purchase frequency and using data to segment customers for personalized book suggestions. Currently, the company has limited insight into seasonal reading trends, customer value distribution, and monthly sales growth, which makes it difficult to plan inventory and run effective marketing campaigns. 
+
+
+
 Expected outcome
 
 
