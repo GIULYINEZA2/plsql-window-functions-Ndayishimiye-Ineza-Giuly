@@ -1,3 +1,7 @@
+ #Individual assignment 
+
+
+
 Student: Ndayishimiye Ineza Giuly
 
 
@@ -9,9 +13,8 @@ Instructor: Eric Maniraguha
 
 Date: September 2025
 
- Individual assignment 
 
- Step 1: Problem Definition 
+ ##Step 1: Problem Definition 
 
  
 Business Context
@@ -36,7 +39,7 @@ Expected outcome
 
 Develop a complete analytical system that gives useful insights to help category managers manage book inventory efficiently, enable marketing teams to create targeted campaigns for different customer groups, assist content curators in spotting trending topics, and support executives in making strategic decisions based on sales patterns and customer reading behavior.
 
-Step 2: Success Criteria (Measurable Goals)
+##Step 2: Success Criteria (Measurable Goals)
 
 
 
@@ -70,7 +73,7 @@ Enable targeted recommendations and loyalty programs.
 Smooth out seasonal variations for clearer trend analysis.
 Improve accuracy in inventory forecasting.
 
-Step 3: Database Schema 
+##Step 3: Database Schema 
 
 
 
@@ -109,7 +112,7 @@ ER Diagram
 ![image alt](https://github.com/GIULYINEZA2/plsql-window-functions-Ndayishimiye-Ineza-Giuly/blob/41de7df72753b0a1505e0cc08bead0a73e818407/Screenshot%202025-09-27%20103025.png)
 
 
-Step 4: Window Functions Implementation
+##Step 4: Window Functions Implementation
 
 1.Ranking: ROW_NUMBER(), RANK(), DENSE_RANK(), PERCENT_RANK() 
 
@@ -156,7 +159,7 @@ This query compares each sale with the previous and next transactions. The LAG f
  
 This query segments customers into quartiles based on revenue. The top quartile (1) holds the most valuable customers, while quartile 4 represents the least. CUME_DIST shows the cumulative share of customers up to a certain revenue level. This is key for customer segmentation and designing targeted marketing strategies.
 
-Step 6: Results Analysis
+##Step 6: Results Analysis
 
 
 
@@ -182,7 +185,7 @@ Smart Reads Rwanda Ltd should nurture Kigali and West customers with loyalty pro
 
 
 
-Step 7: References
+##Step 7: References
 
 
 ## References  
