@@ -22,6 +22,7 @@ Company: Smart Reads Rwanda Ltd
 Department: E-commerce Analytics & Customer Intelligence
 
 Industry: Online Book Retail & Educational Resources
+
 Data challenge
 Smart Reads Rwanda Ltd bookstore aims to improve its inline sales across various book categories( Academic, Fiction, Non-Fiction and Children’s books) by identifying the best-selling books each quarter, studying customer reading habits and purchase frequency and using data to segment customers for personalized book suggestions. Currently, the company has limited insight into seasonal reading trends, customer value distribution, and monthly sales growth, which makes it difficult to plan inventory and run effective marketing campaigns. 
 Expected outcome
@@ -85,13 +86,19 @@ Step 6: Results Analysis
 
 1. Descriptive – What happened?
 The analysis shows that Kigali customers generated the highest revenue, followed by West region buyers, while North and South contributed the least. The ROW_NUMBER and RANK queries revealed a few top customers responsible for a large share of sales. Running totals showed a steady revenue increase from January to March. LAG/LEAD indicated some fluctuations, with February sales dipping compared to January. Customer segmentation with NTILE grouped buyers into quartiles, highlighting a small cluster of high spenders.
+
+
 2. Diagnostic – Why?
 Kigali leads because it has more active online customers and faster delivery access. West performed well due to bulk textbook purchases. Lower performance in North and South may be due to fewer online shoppers or limited awareness of the platform. Period-to-period analysis showed growth spikes driven by larger individual transactions (e.g., bulk orders by institutions). Segmentation confirmed that top 25% of customers drive most revenue, while the bottom tiers make smaller, occasional purchases.
+
+
 3. Prescriptive – What next?
 Smart Reads Rwanda Ltd should nurture Kigali and West customers with loyalty programs, discounts, and premium delivery services to keep them engaged. For North and South, targeted marketing (e.g., free delivery promotions, student discounts) could increase adoption. Customer segmentation suggests rewarding the top quartile with exclusive offers while encouraging lower-tier customers with affordable bundles. Tracking growth % (LAG/LEAD) monthly will help the business spot slowdowns early and adapt strategies quickly.
 
 
 Step 7: References
+
+
 1.	Savan, S. (2020, June 24). Rank functions in SQL: RANK, DENSE_RANK, ROW_NUMBER, NTILE(n). Medium. https://medium.com/@serasiyasavan14/rank-functions-in-sql-rank-dense-rank-row-number-n-6b0d9f8521dc
 2.	GeeksforGeeks. (n.d.). SQL window functions in SQL. https://www.geeksforgeeks.org/sql/window-functions-in-sql
 3.	SQLShack. (2020, June 11). Overview of SQL rank functions. https://www.sqlshack.com/overview-of-sql-rank-functions
