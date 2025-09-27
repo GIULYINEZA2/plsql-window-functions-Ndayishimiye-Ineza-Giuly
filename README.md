@@ -60,16 +60,15 @@ Give real-time insights on progress toward yearly sales targets.
 4.Customer Value Quartiles → NTILE(4)
 
    
-	Divide customers into four groups: Bibliophile, Premium Reader, Regular Reader, and Casual Reader.
-	Enable targeted recommendations and loyalty programs.
+Divide customers into four groups: Bibliophile, Premium Reader, Regular Reader, and Casual Reader.
+Enable targeted recommendations and loyalty programs.
 
 
 5.3-Month Moving Averages → AVG() OVER()
 
 
-
-	Smooth out seasonal variations for clearer trend analysis.
-	Improve accuracy in inventory forecasting.
+Smooth out seasonal variations for clearer trend analysis.
+Improve accuracy in inventory forecasting.
 
 Step 3: Database Schema 
 
