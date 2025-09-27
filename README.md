@@ -1,4 +1,4 @@
- #Individual assignment 
+ Individual assignment
 
 
 
@@ -11,10 +11,10 @@ Course: Database Development with PL/SQL (INSY 8311)
 Instructor: Eric Maniraguha
 
 
-Date: September 2025
+Date: 27 September 2025
 
 
- ##Step 1: Problem Definition 
+ Step 1: Problem Definition 
 
  
 Business Context
@@ -73,7 +73,7 @@ Enable targeted recommendations and loyalty programs.
 Smooth out seasonal variations for clearer trend analysis.
 Improve accuracy in inventory forecasting.
 
-##Step 3: Database Schema 
+Step 3: Database Schema 
 
 
 
@@ -112,7 +112,7 @@ ER Diagram
 ![image alt](https://github.com/GIULYINEZA2/plsql-window-functions-Ndayishimiye-Ineza-Giuly/blob/41de7df72753b0a1505e0cc08bead0a73e818407/Screenshot%202025-09-27%20103025.png)
 
 
-##Step 4: Window Functions Implementation
+Step 4: Window Functions Implementation
 
 1.Ranking: ROW_NUMBER(), RANK(), DENSE_RANK(), PERCENT_RANK() 
 
@@ -185,7 +185,7 @@ Smart Reads Rwanda Ltd should nurture Kigali and West customers with loyalty pro
 
 
 
-##Step 7: References
+Step 7: References
 
 
 ## References  
