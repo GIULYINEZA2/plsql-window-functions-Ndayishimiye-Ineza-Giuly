@@ -83,7 +83,7 @@ customers	 Customer information and reading preferences	customer_id (PK), name, 
 products	Catalog of books 	poduct_id (PK), name,  category	1,Learn SQL in24 hours, Education
 Sales_transactions 	sales records	transaction_id (PK), customer_id (FK), product-id(FK),sale_date,amount	1,1,1, 2024-01-15, 25000
 
-![image alt](image_url)
+![image alt](https://github.com/GIULYINEZA2/plsql-window-functions-Ndayishimiye-Ineza-Giuly/blob/760417c7626ed647a5f4ccaf571e5b2d26b18a0d/Screenshot%202025-09-27%20094701.png)
 
 
 ![image alt](image_url)
