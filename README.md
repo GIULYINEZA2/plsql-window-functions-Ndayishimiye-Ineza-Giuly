@@ -57,14 +57,14 @@ Give real-time insights on progress toward yearly sales targets.
 	Calculate monthly growth percentages and identify seasonal reading trends.
 	Assist in proactive inventory planning and predicting trends.
 
-	4.Customer Value Quartiles → NTILE(4)
+4.Customer Value Quartiles → NTILE(4)
 
    
 	Divide customers into four groups: Bibliophile, Premium Reader, Regular Reader, and Casual Reader.
 	Enable targeted recommendations and loyalty programs.
 
 
-5.	3-Month Moving Averages → AVG() OVER()
+5.3-Month Moving Averages → AVG() OVER()
 
 
 
