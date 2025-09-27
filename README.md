@@ -1,8 +1,15 @@
 Student: Ndayishimiye Ineza Giuly
+
+
 Course: Database Development with PL/SQL (INSY 8311)
+
+
 Instructor: Eric Maniraguha
+
+
 Date: September 2025
- Individual assignment 
+
+ #Individual assignment 
 
  Step 1: Problem Definition 
 Business Context
