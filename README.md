@@ -78,29 +78,40 @@ Step 4: Window Functions Implementation
 
 1.Ranking: ROW_NUMBER(), RANK(), DENSE_RANK(), PERCENT_RANK() 
 
-Interpretation
+Interpretation:
+
+
+
 This query ranks customers by total revenue from book sales. ROW_NUMBER assigns a unique order, RANK allows ties, DENSE_RANK avoids gaps, and PERCENT_RANK shows each customer’s relative position. We can easily spot the top N customers and see their contribution compared to others.
 
 
 2.Aggregate: SUM(), AVG(), MIN(), MAX() 
 
-Interpretation
+Interpretation:
+
+
 This query calculates running totals of revenue over time, a moving average of the last 3 sales, and running min/max values. It helps detect sales growth trends, seasonal peaks, and whether transaction values are increasing or stabilizing over time.
 
 
 3. Navigation: LAG(), LEAD()
 
 
-Interpretation
+Interpretation:
+
+
 This query compares each sale with the previous and next transactions. The LAG function retrieves past sales, LEAD looks ahead, and we calculate a growth percentage. This shows whether sales are growing, declining, or fluctuating period-to-period.
 
 
  4. Distribution: NTILE(4), CUME_DIST()
 
- Interpretation
+ Interpretation:
+
+ 
 This query segments customers into quartiles based on revenue. The top quartile (1) holds the most valuable customers, while quartile 4 represents the least. CUME_DIST shows the cumulative share of customers up to a certain revenue level. This is key for customer segmentation and designing targeted marketing strategies.
 
 Step 6: Results Analysis
+
+
 
 1. Descriptive – What happened?
 The analysis shows that Kigali customers generated the highest revenue, followed by West region buyers, while North and South contributed the least. The ROW_NUMBER and RANK queries revealed a few top customers responsible for a large share of sales. Running totals showed a steady revenue increase from January to March. LAG/LEAD indicated some fluctuations, with February sales dipping compared to January. Customer segmentation with NTILE grouped buyers into quartiles, highlighting a small cluster of high spenders.
