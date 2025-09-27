@@ -24,11 +24,20 @@ Department: E-commerce Analytics & Customer Intelligence
 Industry: Online Book Retail & Educational Resources
 
 Data challenge
+
+
 Smart Reads Rwanda Ltd bookstore aims to improve its inline sales across various book categories( Academic, Fiction, Non-Fiction and Children’s books) by identifying the best-selling books each quarter, studying customer reading habits and purchase frequency and using data to segment customers for personalized book suggestions. Currently, the company has limited insight into seasonal reading trends, customer value distribution, and monthly sales growth, which makes it difficult to plan inventory and run effective marketing campaigns. 
 Expected outcome
+
+
+
 Develop a complete analytical system that gives useful insights to help category managers manage book inventory efficiently, enable marketing teams to create targeted campaigns for different customer groups, assist content curators in spotting trending topics, and support executives in making strategic decisions based on sales patterns and customer reading behavior.
 
 Step 2: Success Criteria (Measurable Goals)
+
+
+
+
 1.	Top 5 Books per Category/Quarter → RANK(), DENSE_RANK()
 o	Determine the best-selling books in each category based on sales and revenue.
 o	Help category managers optimize inventory and focus on promotions.
@@ -46,8 +55,14 @@ o	Smooth out seasonal variations for clearer trend analysis.
 o	Improve accuracy in inventory forecasting.
 
 Step 3: Database Schema 
+
+
+
 Table Design
 Table	Purpose	Key Columns	Example Row
+
+
+
 customers	 Customer information and reading preferences	customer_id (PK), name, region	1, Giuly Ineza, Kigali
 products	Catalog of books 	poduct_id (PK), name,  category	1,Learn SQL in24 hours, Education
 Sales_transactions 	sales records	transaction_id (PK), customer_id (FK), product-id(FK),sale_date,amount	1,1,1, 2024-01-15, 25000
