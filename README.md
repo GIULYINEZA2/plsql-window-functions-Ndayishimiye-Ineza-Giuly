@@ -42,20 +42,34 @@ Step 2: Success Criteria (Measurable Goals)
 
 
 1.	Top 5 Books per Category/Quarter → RANK(), DENSE_RANK()
-o	Determine the best-selling books in each category based on sales and revenue.
-o	Help category managers optimize inventory and focus on promotions.
+
+
+	Determine the best-selling books in each category based on sales and revenue.
+Help category managers optimize inventory and focus on promotions.
 2.	Running Monthly Sales Totals → SUM() OVER()
-o	Track cumulative sales month by month.
-o	Give real-time insights on progress toward yearly sales targets.
+
+
+	Track cumulative sales month by month.
+Give real-time insights on progress toward yearly sales targets.
 3.	Month-over-Month Growth → LAG(), LEAD()
-o	Calculate monthly growth percentages and identify seasonal reading trends.
-o	Assist in proactive inventory planning and predicting trends.
-4.	Customer Value Quartiles → NTILE(4)
-o	Divide customers into four groups: Bibliophile, Premium Reader, Regular Reader, and Casual Reader.
-o	Enable targeted recommendations and loyalty programs.
+
+
+	Calculate monthly growth percentages and identify seasonal reading trends.
+	Assist in proactive inventory planning and predicting trends.
+
+	4.Customer Value Quartiles → NTILE(4)
+
+   
+	Divide customers into four groups: Bibliophile, Premium Reader, Regular Reader, and Casual Reader.
+	Enable targeted recommendations and loyalty programs.
+
+
 5.	3-Month Moving Averages → AVG() OVER()
-o	Smooth out seasonal variations for clearer trend analysis.
-o	Improve accuracy in inventory forecasting.
+
+
+
+	Smooth out seasonal variations for clearer trend analysis.
+	Improve accuracy in inventory forecasting.
 
 Step 3: Database Schema 
 
