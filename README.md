@@ -86,25 +86,25 @@ Sales_transactions 	sales records	transaction_id (PK), customer_id (FK), product
 ![image alt](https://github.com/GIULYINEZA2/plsql-window-functions-Ndayishimiye-Ineza-Giuly/blob/760417c7626ed647a5f4ccaf571e5b2d26b18a0d/Screenshot%202025-09-27%20094701.png)
 
 
-![image alt](image_url)
+![image alt](https://github.com/GIULYINEZA2/plsql-window-functions-Ndayishimiye-Ineza-Giuly/blob/41de7df72753b0a1505e0cc08bead0a73e818407/Screenshot%202025-09-27%20094748.png)
 
 
 
-![image alt](image_url)
+![image alt](https://github.com/GIULYINEZA2/plsql-window-functions-Ndayishimiye-Ineza-Giuly/blob/41de7df72753b0a1505e0cc08bead0a73e818407/Screenshot%202025-09-27%20094837.png)
 
 
 
-![image alt](image_url)
-
-
-
-
-![image alt](image_url)
+![image alt](https://github.com/GIULYINEZA2/plsql-window-functions-Ndayishimiye-Ineza-Giuly/blob/caa2e3df9e747183dacda2e550bb72430f474254/Screenshot%202025-09-27%20095233.png)
 
 
 
 
-![image alt](image_url)
+![image alt](https://github.com/GIULYINEZA2/plsql-window-functions-Ndayishimiye-Ineza-Giuly/blob/41de7df72753b0a1505e0cc08bead0a73e818407/Screenshot%202025-09-27%20095404.png)
+
+
+
+
+![image alt](https://github.com/GIULYINEZA2/plsql-window-functions-Ndayishimiye-Ineza-Giuly/blob/41de7df72753b0a1505e0cc08bead0a73e818407/Screenshot%202025-09-27%20095511.png)
 
 
 ER Diagram 
@@ -112,7 +112,7 @@ ER Diagram
 
 
 
-![image alt](image_url)
+![image alt](https://github.com/GIULYINEZA2/plsql-window-functions-Ndayishimiye-Ineza-Giuly/blob/41de7df72753b0a1505e0cc08bead0a73e818407/Screenshot%202025-09-27%20103025.png)
 
 
 Step 4: Window Functions Implementation
@@ -143,7 +143,7 @@ This query calculates running totals of revenue over time, a moving average of t
 3. Navigation: LAG(), LEAD()
 
 
-   ![image alt](image_url)
+   ![image alt](https://github.com/GIULYINEZA2/plsql-window-functions-Ndayishimiye-Ineza-Giuly/blob/41de7df72753b0a1505e0cc08bead0a73e818407/Screenshot%202025-09-27%20100351.png)
 
 
 Interpretation:
@@ -155,7 +155,7 @@ This query compares each sale with the previous and next transactions. The LAG f
  4. Distribution: NTILE(4), CUME_DIST()
 
 
-![image alt](image_url)
+![image alt](https://github.com/GIULYINEZA2/plsql-window-functions-Ndayishimiye-Ineza-Giuly/blob/41de7df72753b0a1505e0cc08bead0a73e818407/Screenshot%202025-09-27%20100427.png)
 
  Interpretation:
 
