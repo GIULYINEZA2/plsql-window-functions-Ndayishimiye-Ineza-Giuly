@@ -83,13 +83,44 @@ customers	 Customer information and reading preferences	customer_id (PK), name, 
 products	Catalog of books 	poduct_id (PK), name,  category	1,Learn SQL in24 hours, Education
 Sales_transactions 	sales records	transaction_id (PK), customer_id (FK), product-id(FK),sale_date,amount	1,1,1, 2024-01-15, 25000
 
+![image alt](image_url)
+
+
+![image alt](image_url)
+
+
+
+![image alt](image_url)
+
+
+
+![image alt](image_url)
+
+
+
+
+![image alt](image_url)
+
+
+
+
+![image alt](image_url)
+
 
 ER Diagram 
+
+
+
+
+![image alt](image_url)
 
 
 Step 4: Window Functions Implementation
 
 1.Ranking: ROW_NUMBER(), RANK(), DENSE_RANK(), PERCENT_RANK() 
+
+
+![image alt](image_url)
 
 Interpretation:
 
@@ -100,6 +131,9 @@ This query ranks customers by total revenue from book sales. ROW_NUMBER assigns 
 
 2.Aggregate: SUM(), AVG(), MIN(), MAX() 
 
+
+![image alt](image_url)
+
 Interpretation:
 
 
@@ -109,6 +143,9 @@ This query calculates running totals of revenue over time, a moving average of t
 3. Navigation: LAG(), LEAD()
 
 
+   ![image alt](image_url)
+
+
 Interpretation:
 
 
@@ -116,6 +153,9 @@ This query compares each sale with the previous and next transactions. The LAG f
 
 
  4. Distribution: NTILE(4), CUME_DIST()
+
+
+![image alt](image_url)
 
  Interpretation:
 
