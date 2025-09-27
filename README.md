@@ -120,7 +120,7 @@ Step 4: Window Functions Implementation
 1.Ranking: ROW_NUMBER(), RANK(), DENSE_RANK(), PERCENT_RANK() 
 
 
-![image alt](image_url)
+![image alt](https://github.com/GIULYINEZA2/plsql-window-functions-Ndayishimiye-Ineza-Giuly/blob/962b9d061e0d08a89ce586a5492766dd399cb1a9/Screenshot%202025-09-27%20100222.png)
 
 Interpretation:
 
@@ -132,7 +132,7 @@ This query ranks customers by total revenue from book sales. ROW_NUMBER assigns 
 2.Aggregate: SUM(), AVG(), MIN(), MAX() 
 
 
-![image alt](image_url)
+![image alt](https://github.com/GIULYINEZA2/plsql-window-functions-Ndayishimiye-Ineza-Giuly/blob/962b9d061e0d08a89ce586a5492766dd399cb1a9/Screenshot%202025-09-27%20100309.png)
 
 Interpretation:
 
