@@ -39,7 +39,7 @@ Expected outcome
 
 Develop a complete analytical system that gives useful insights to help category managers manage book inventory efficiently, enable marketing teams to create targeted campaigns for different customer groups, assist content curators in spotting trending topics, and support executives in making strategic decisions based on sales patterns and customer reading behavior.
 
-##Step 2: Success Criteria (Measurable Goals)
+Step 2: Success Criteria (Measurable Goals)
 
 
 
@@ -159,7 +159,7 @@ This query compares each sale with the previous and next transactions. The LAG f
  
 This query segments customers into quartiles based on revenue. The top quartile (1) holds the most valuable customers, while quartile 4 represents the least. CUME_DIST shows the cumulative share of customers up to a certain revenue level. This is key for customer segmentation and designing targeted marketing strategies.
 
-##Step 6: Results Analysis
+Step 6: Results Analysis
 
 
 
@@ -188,7 +188,7 @@ Smart Reads Rwanda Ltd should nurture Kigali and West customers with loyalty pro
 Step 7: References
 
 
-## References  
+ 
 
 1.Savan, S. (2020). [Rank functions in SQL: RANK, DENSE_RANK, ROW_NUMBER, NTILE(n)](https://medium.com/@serasiyasavan14/rank-functions-in-sql-rank-dense-rank-row-number-n-6b0d9f8521dc).  
 2.GeeksforGeeks. (n.d.). [SQL window functions in SQL](https://www.geeksforgeeks.org/sql/window-functions-in-sql).  
